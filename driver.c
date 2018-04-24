@@ -7,7 +7,7 @@
 
 static int device_file_major_number = 0;
 static const char device_name[] = "dummy-driver";
-static const char    g_s_Hello_World_string[] = "This is our dummy driver!\n\0";
+static const char    g_s_Hello_World_string[] = "This is our dummy driver!\0";
 static const ssize_t g_s_Hello_World_size = sizeof(g_s_Hello_World_string);
 static numberOpens = 0;
 static char   message[256] = {0};          
