@@ -1,4 +1,4 @@
-Files in this directory are taken from these links [1](https://www.codeproject.com/Articles/112474/A-Simple-Driver-for-Linux-OS) and
+Files in this repository are the mixture from these two links [1](https://www.codeproject.com/Articles/112474/A-Simple-Driver-for-Linux-OS) and
 [2](http://derekmolloy.ie/writing-a-linux-kernel-module-part-2-a-character-device/).
 
 Sorry, for not writing the code by myself, I thought these links give more clean and easy to understand code. Also, the tutorials itself are very concise and much easier to follow compared to LDD book.
