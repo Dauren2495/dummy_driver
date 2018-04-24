@@ -13,7 +13,6 @@ git clone https://github.com/Dauren2495/dummy_driver.git
 cd dummy_driver    
 make load  
 mknod /dev/dummy-driver c  250 0  
-./test  
 ```  
 If successful you must get the following outputs
 
