@@ -3,7 +3,7 @@ CC=gcc
 
 # If we are running by kernel building system
 ifneq ($(KERNELRELEASE),)
-	$(TARGET_MODULE)-objs := main.o dummy-driver.o
+	$(TARGET_MODULE)-objs := dummy-driver.o
 	obj-m := $(TARGET_MODULE).o
 
 # If we running without kernel build system
