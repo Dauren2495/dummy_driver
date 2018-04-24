@@ -1,4 +1,4 @@
-TARGET_MODULE:=dummy-module
+TARGET_MODULE:=dummy-driver
 CC=gcc
 
 # If we are running by kernel building system
