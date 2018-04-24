@@ -16,7 +16,7 @@ mknod /dev/dummy-driver c  250 0
 ```  
 If successful you must get the following output
 
-```shell
+```
 $ ./test
  Starting device test code example...
  Type in a short string to send to the kernel module:
@@ -24,7 +24,7 @@ $ ./test
  Writing message to the device [Message you typed].
  Press ENTER to read back from the device...
  Reading from the device...
- The received message is: [Message you typed([length of 'message'] letters)]
+ The received message is: [Message you typed([length of your message] letters)]
  End of the program
 ```
 
