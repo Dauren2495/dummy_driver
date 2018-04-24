@@ -6,11 +6,11 @@ Sorry, for not writing the code by myself,but I thought these links give more cl
 To run this code we need to to the following steps
 
 '''
-cd  /lib/modules/`uname -r`/build 
-make modules_prepare
-cd path-to-driver-directory
-make load
-mknod /dev/dummy-driver c  250 0
+cd  /lib/modules/`uname -r`/build  
+make modules_prepare  
+cd path-to-driver-directory  
+make load  
+mknod /dev/dummy-driver c  250 0  
 
 '''
 
