@@ -24,7 +24,7 @@ $ ./test
  Writing message to the device [Message you typed].
  Press ENTER to read back from the device...
  Reading from the device...
- The received message is: [Message you typed([length of your message] letters)]
+ The received message is: [This is our dummy driver!]
  End of the program
 ```
 
