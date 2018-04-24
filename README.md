@@ -7,7 +7,7 @@ To run this module we need to do the following steps
 
 ```shell
 cd  /lib/modules/`uname -r`/build  
-make modules_prepare  
+sudo make modules_prepare  
 cd  
 git clone https://github.com/Dauren2495/dummy_driver.git  
 cd dummy_driver    
