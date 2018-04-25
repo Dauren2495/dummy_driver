@@ -30,3 +30,5 @@ $ ./test
 
 However, as I said I could't get this output because of some Ubuntu issue with [not complete build of kernel](https://stackoverflow.com/questions/39107811/no-rule-to-make-target-arch-x86-entry-syscalls-syscall-32-tbl-needed-by-arch)
 
+__The step we need to take now is to build an android kernel and then simply plug in this module.__
+
